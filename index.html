@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,700&family=Darker+Grotesque:wght@600;700;800;900&family=Lato:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,600;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Krish Agrawal | Portfolio</title>
+</head>
+<body>
+
+    <!-- header-nav  -->
+   
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./assets/images/logo.png" alt="logo" class="brand-logo bi me-2" width="40" height="32">
+          <span class="fs-4 logo-text">Kris Ag<span class="text-black">.</span></span>
+        </a>
+  
+        <ul class="nav nav-underline">
+          <li class="nav-item"><a href="#" class="nav-link active dark-blue" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link dark-blue">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link dark-blue">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link dark-blue">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link dark-blue">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- hero section -->
+    <div class="container col-xxl-8 px-4 py-2">
+        <div class="row flex-lg-row-reverse align-items-center justify-content-between g-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./assets/images/hero-image.png" class="d-block mx-lg-auto img-fluid " alt="Profile Image" width="400" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <p class="lead display-7 fw-bolder lato"> Hey there, I am Kris Agrawal.</p>
+            <h1 class="display-3 fw-bold text-body-emphasis lh-1 mb-3 cabin dark-blue">I am a front-end web developer.</h1>
+            <p class="lead display-7 fw-bolder lato"> I am a student, also into web development. I am also actively engaged in the clothing industry.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start align-items-md-center">
+              <button type="button" class="d-flex align-items-center justify-content-between gap-2 btn btn-primary btn-lg px-4 me-md-2 btn-blue" onclick="location.href='#contact'">Hire me 
+                <!-- <img src="./assets/images/arrow-right.png" alt="arrow" width="22px" height="22px"> -->
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4 btn-second" onclick="location.href='#about'">About me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- features section -->
+    <section class="container col-xxl-8 px-4 mb-4 py-5" id="about">
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="col d-flex flex-column align-items-start gap-2">
+          <h2 class="fw-bold text-body-emphasis text-black cabin display-4 dark-blue">What I do?</h2>
+          <p class="text-body-secondary fs-4">I am currently a front end web developer slowly shifting to back end too. Currently a student, I also run a clothing business as well as engaged as a manager in Ratan Complex.</p>
+          <a href="#contact" class="btn btn-primary btn-lg btn-blue">Contact me</a>
+        </div>
+  
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark-blue fs-4 rounded-3">
+                <img src="./assets/images/javascript.png" alt="javascript" width="30px" height="30px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis lato text-black">Front End</h4>
+              <p class="text-body-secondary">Web development with mild js and its frameworks.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark-blue fs-4 rounded-3">
+                <img src="./assets/images/java.png" alt="javascript" width="36px" height="36px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Java</h4>
+              <p class="text-body-secondary">Good with apps made using java and its swing library.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark-blue fs-4 rounded-3">
+                <img src="./assets/images/web-designing.png" alt="javascript" width="30px" height="30px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Web Designing</h4>
+              <p class="text-body-secondary">Active in learning UI/UX and web design principles.</p>
+            </div>
+  
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark-blue fs-4 rounded-3">
+                <img src="./assets/images/project-management.png" alt="javascript" width="30px" height="30px">
+              </div>
+              <h4 class="fw-semibold mb-0 text-body-emphasis">Project Manager</h4>
+              <p class="text-body-secondary">Active as a project manager in Hypotenuse Studios.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container my-4 py-5 mt-5 pb-5">
+      <h2 class="display-6 fw-bold text-body-emphasis lh-1 cabin dark-blue ">My Skills</h2>
+      <div class="row g-4 my-2 py-3 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./assets/images/code.png" alt="code-icon" width="30px" height="30px">
+          </div>
+          <div>
+            <h3 class="fs-3 text-body-emphasis text-black">Coding</h3>
+            <p class="text-black">Good with object oriented programming.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./assets/images/ux-design.png" alt="ui-icon" width="30px" height="30px">
+          </div>
+          <div>
+            <h3 class="fs-3 text-body-emphasis text-black">Design</h3>
+            <p class="text-black">Good with UI/UX and design theories.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./assets/images/project.png" alt="Project-icon" width="34px" height="34px">
+          </div>
+          <div>
+            <h3 class="fs-3 text-body-emphasis text-black">Project Management</h3>
+            <p class="text-black">Good in handling large scale projects.</p>          
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex flex-row justify-content-between pt-5 pb-5">
+        <div class="">
+          <img src="./assets/images/java-logo-1.png" alt="mashable-logo" height="100" class="blend">
+        </div>
+        <div class="">
+          <img src="./assets/images/cpp.png" alt="mashable-logo" height="105" class="blend">
+        </div>
+        <div class="">
+          <img src="./assets/images/html-css-js.png" alt="mashable-logo" height="80" class="pt-2 blend">
+        </div>
+
+        <div class="">
+          <img src="./assets/images/sql.png" alt="mashable-logo" height="70" class="blend">
+        </div>
+       
+      </div>
+
+      <div class="d-flex justify-content-center">          
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2 btn-second" onclick="location.href='#contact'">Hire me</button>
+      </div>
+    </div>
+    </section>
+
+  <!-- quote-section -->
+    <section id="testimonial" class="bg-light py-4">
+      <div class="container py-5">
+        <div class="container ">
+          <h2 class="text-body-emphasis text-center text-black">"Perform your obligatory duty, because action is indeed better than inaction."</h2>
+
+          <div class="d-flex justify-content-center pt-5">
+            <img src="./assets/images/krishna1.jpg" alt="Lord-krsna" class="bd-placeholder-img rounded-circle" height="100"/>
+          </div>
+
+          <div class="d-flex justify-content-center">          
+            <p class="lead py-2">Krishna Vasudeva</p>
+          </div>
+          
+          <h4 class="text-body-emphasis text-center text-black opacity-75">Not me but a side quote from Lord Krishna.</h4>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Eductaion -->
+    <section id="education" class="container my-4 py-5">
+      <div class="container mt-5">
+        <h2 class="display-6 fw-bold text-body-emphasis lh-1 cabin dark-blue">Education</h2>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <ul class="timeline">
+              <li>
+                <a href="#" class="">Primary Education</a>
+                <a href="#" class="float-end">2005-2008</a>
+                <p>Joined my first school: Glory Education Foundation</p>
+              </li>
+              <li>
+                <a href="#" class="">Middle School</a>
+                <a href="#" class="float-end">2008-2018</a>
+                <p>Attended Eden Garden Education Foundation as my middle school.</p>
+              </li>
+              <li>
+                <a href="#" class="">High School</a>
+                <a href="#" class="float-end">2019-2021</a>
+                <p>Got my high school education from Balmiki Providence College.</p>
+              </li>
+              <li>
+                <a href="#" class="">Graduation</a>
+                <a href="#" class="float-end">2022-2025</a>
+                <p>Joined Lincoln University College(Balmiki) for Bachelor in Information Technology.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="container my-5 py-5">
+      <div class="container mt-5">
+        <h2 class="display-6 fw-bold text-body-emphasis lh-1 cabin dark-blue mb-5">Contact me</h2>
+        
+        <div class="d-flex">
+          <div class="w-50 d-flex flex-column contact-box">
+            <div class="d-flex w-100 my-4">
+              <input type="text" placeholder="First Name" class="cabin form-inp">
+              <input type="text" placeholder="Last Name" class="cabin form-inp">
+            </div>
+
+            <div class="d-flex w-100 my-4">
+              <input type="text" placeholder="Email" class="cabin form-inp w-100">
+            </div>
+
+            <div class="d-flex w-100 my-4">
+              <textarea class="cabin form-inp text-area w-100" placeholder="Write your message"></textarea>
+            </div>
+            
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 btn-blue btn-send">Send Mesage 
+            </button>
+          </div>
+          <div class="w-50">
+            <div class="mx-5 d-flex flex-column">
+              <h3 class="w-50 display-7 mx-4 my-3 fw-bold text-body-emphasis lh-1 cabin text-black">Let's talk about everything.</h3>
+              <p class="w-75 text-body-secondary mx-4 fs-5">From any project ideas to any hiring, Please feel free to leave me a message. You can also find my social media handles below. Lets get connected!</p>
+              <a href="#" class="mx-4 cabin dark-blue ">Read more</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+  
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-body-secondary dark-blue">© 2023 Hypotenuse Studios</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <img src="./assets/images/whatsapp.png" alt="whatsapp-icon" width="24" height="24">
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <img src="./assets/images/instagram.png" alt="whatsapp-icon" width="24" height="24">
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <img src="./assets/images/facebook.png" alt="whatsapp-icon" width="24" height="24">
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  
+</body>
+</html>
